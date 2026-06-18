@@ -6,7 +6,7 @@
 
 ## 📋 项目概述
 
-IRLLRec 是一个**模型无关（model-agnostic）的多模态意图表示学习推荐框架**，发表于 SIGIR 2025。该框架通过引入大语言模型构建多模态意图表示，有效解决了传统推荐系统中交互意图稀疏、可解释性不足的问题。
+IRLLRec 是一个**模型无关（model-agnostic）的多模态意图表示学习推荐框架**。该框架通过引入大语言模型构建多模态意图表示，有效解决了传统推荐系统中交互意图稀疏、可解释性不足的问题。
 
 ### 研究动机
 
@@ -488,32 +488,4 @@ final_embeds = sum(embeds_list)  # 多层表示求和
 
 ---
 
-## 📝 代码溯源与致谢
 
-本项目模型训练框架、LLM 生成的用户/物品语义特征及对应的嵌入表示主要改编自：
-
-> [https://github.com/HKUDS/RLMRec](https://github.com/HKUDS/RLMRec)
-
-感谢 RLMRec 团队提供的训练框架和开源贡献。
-
----
-
-## 📚 引用
-
-如果本项目对你的研究有帮助，请引用以下论文：
-
-```bibtex
-@inproceedings{2025IRLLRec,
-  title={Intent Representation Learning with Large Language Model for Recommendation},
-  author={Wang, Yu and Sang, Lei and Zhang, Yi and Zhang, Yiwen},
-  booktitle={Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)},
-  pages={1870--1879},
-  year={2025}
-}
-```
-
----
-
-## 📄 许可证
-
-本项目仅用于学术研究目的。
