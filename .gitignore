@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+*.ipynb_checkpoints/
+
+# Training artifacts
+encoder/log/
+encoder/checkpoint/
+*.pth
+*.pt
+
+# Data files (large files, download separately)
+data/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Conda
+*.conda
+
+# Environment
+.env
